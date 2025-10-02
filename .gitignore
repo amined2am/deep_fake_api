@@ -1,8 +1,23 @@
-static/cropped_faces/
-static/split_frames/
-checkpoint.pt
+# Dépendances / builds
+node_modules/
+dist/
+build/
+*.log
+
+# Environnements
+.venv/
+.env
+
+# Dossiers de données volumineux
+SHORT_VIDEO_HD/
+data/
+datasets/
+videos/
+
+# Gros binaires fréquents
 *.pt
-.venv
-*.venv
-/.venv
-_pycache_
+*.ckpt
+*.mp4
+*.zip
+*.tar
+*.7z
