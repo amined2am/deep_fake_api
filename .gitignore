@@ -1,0 +1,8 @@
+static/cropped_faces/
+static/split_frames/
+checkpoint.pt
+*.pt
+.venv
+*.venv
+/.venv
+_pycache_
