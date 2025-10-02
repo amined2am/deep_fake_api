@@ -40,13 +40,14 @@ PS : for the faces_cropped I have used Media pipe as a priority before using ope
 python -m venv .venv
 source .venv/bin/activate        # (Windows: .venv\Scripts\activate)
 pip install -r requirements.txt  # probably you have some conflict about dependence but it's fine
-pip install -r requirements.lock.txt #
-
+pip install -r requirements.lock.txt 
+```
 ### 2) launch API
 
 all the command are in the file cmdAPI, but after the set up you just need to right this commande 
-**uvicorn apiForAppNewOne:app --host 0.0.0.0 --port 8080 --reload**
-
+```bash
+uvicorn apiForAppNewOne:app --host 0.0.0.0 --port 8080 --reload
+```
 ## API endPoint
 
 ## 📡 API Endpoints
